@@ -1,5 +1,5 @@
 nav {
-    background-color: #333;
+    background-color: #829aa0;
     color: white;
     padding: 15px;
     display: flex; /* Use flexbox for layout */
@@ -39,12 +39,12 @@ nav ul li a:hover {
 
 .left {
     flex: 0 0 400px; /* Set fixed width for columns, adjust as needed */
-    background-color: #f4f4f4; /* Light background for left column */
+        background-color: #e6f3ef; /* Light background for left column */
 }
 
 .right {
     flex: 0 0 500px; /* Set fixed width for columns, adjust as needed */
-    background-color: #e2e2e2; /* Slightly darker background for right column */
+    background-color:  #c0dbd3; /* Slightly darker background for right column */
 }
 
 .profileimage-container {
