@@ -47,6 +47,7 @@ nav ul li a:hover {
 .column {
     padding: 0px;
     float: left;                /* Float columns to align them side by side */
+    flex: 1;                     
     margin: 0px; /* Add some space between columns */
         box-sizing: border-box;      /* Include padding in width calculation */
 }
