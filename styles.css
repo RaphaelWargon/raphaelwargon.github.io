@@ -22,6 +22,10 @@ nav ul li a {
     color: white;
     text-decoration: none;
 }
+nav ul li a:hover {
+    color: white;
+    text-decoration: underline;
+}
 
 .container {
     display: flex;
@@ -30,14 +34,15 @@ nav ul li a {
 }
 
 .column {
-    flex: 0 0 700px; /* Set fixed width for columns, adjust as needed */
     padding: 20px;
     margin: 0 10px; /* Add some space between columns */}
 
 .left {
+    flex: 0 0 400px; /* Set fixed width for columns, adjust as needed */
     background-color: #f4f4f4; /* Light background for left column */
 }
 
 .right {
+    flex: 0 0 500px; /* Set fixed width for columns, adjust as needed */
     background-color: #e2e2e2; /* Slightly darker background for right column */
 }
