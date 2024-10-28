@@ -35,10 +35,10 @@ nav ul li a:hover {
 
 .container {
     style:"font-family: georgia";
-    display: flex;
-    width: 100%;                /* Full width of the viewport */
-    height: 100vh;              /* Optional: Full height of the viewport */
-    display: inline-block;      /* Aligns child elements side by side */
+    display: grid;                       /* Enable grid layout */
+    grid-template-columns: 80% 20%;     /* Set column widths */
+    width: 100%;                        /* Full width of the viewport */
+    height: 100vh;                      /* Optional: Full height of the viewport */    
     margin: 0;             /* Center the container on the page */
     padding: 0px;              /* Optional: Padding around the container */
     justify-content: center; /* Center the columns horizontally */
@@ -47,7 +47,6 @@ nav ul li a:hover {
 .column {
     padding: 0px;
     float: left;                /* Float columns to align them side by side */
-    flex: 1;                     
     margin: 0px; /* Add some space between columns */
         box-sizing: border-box;      /* Include padding in width calculation */
 }
