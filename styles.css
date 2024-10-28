@@ -46,3 +46,7 @@ nav ul li a:hover {
     flex: 0 0 500px; /* Set fixed width for columns, adjust as needed */
     background-color: #e2e2e2; /* Slightly darker background for right column */
 }
+
+.profileimage-container {
+    text-align: center;
+}
