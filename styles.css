@@ -62,6 +62,10 @@ footer {
     background-color: #829aa0; 
     color: white;
     text-align: center;
+    position: fixed;
+    
+    bottom: 0;
+    width: 100%;
 }
 .footer-logos {
     display: flex;
