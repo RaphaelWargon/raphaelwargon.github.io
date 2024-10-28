@@ -19,7 +19,7 @@ nav ul li {
 }
 
 nav ul li a {
-    font-size: 25px;
+    font-size: 22px;
     color: white;
     text-decoration: none;
 }
@@ -46,7 +46,7 @@ nav ul li a:hover {
 }
 
 .right {
-    width: 900px; /* Set fixed width for columns, adjust as needed */
+    width: 1200px; /* Set fixed width for columns, adjust as needed */
     background-color:   #abc8bf ; /* Slightly darker background for right column */
     
 }
