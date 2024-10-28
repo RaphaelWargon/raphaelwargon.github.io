@@ -1,6 +1,10 @@
+body{
+    margin: 0;
+}
+
 nav {
     background-color: #829aa0;
-    color: white;
+    color: #f4f4e7;
     padding: 15px;
     display: flex; /* Use flexbox for layout */
     justify-content: flex-start; /* Start aligning from the left */
@@ -21,34 +25,36 @@ nav ul li {
 
 nav ul li a {
     font-size: 22px;
-    color: :#f4f4e7;
+    color: #f4f4e7;
     text-decoration: none;
 }
 nav ul li a:hover {
-    color: :#f4f4e7;
+    color: #f4f4e7;
     text-decoration: underline;
 }
 
 .container {
     style:"font-family: georgia";
     display: flex;
-    width: 95%;                 /* Set container width, e.g., 80% of the viewport */
-    margin: 0 auto;             /* Center the container on the page */
-    padding: 20px;              /* Optional: Padding around the container */
+    width: 100%;                /* Full width of the viewport */
+    height: 100vh;              /* Optional: Full height of the viewport */
+    display: inline-block;      /* Aligns child elements side by side */
+    margin: 0;             /* Center the container on the page */
+    padding: 0px;              /* Optional: Padding around the container */
     justify-content: center; /* Center the columns horizontally */
 }
 
 .column {
-    padding: 20px;
+    padding: 0px;
     margin: 0 10px; /* Add some space between columns */}
 
 .left {
-    width: 300px; /* Set fixed width for columns, adjust as needed */
+    width: 20%; /* Set fixed width for columns, adjust as needed */
         background-color: #e6f3ef; /* Light background for left column */
 }
 
 .right {
-    width: 1200px; /* Set fixed width for columns, adjust as needed */
+    width: 80%; /* Set fixed width for columns, adjust as needed */
     background-color:   #abc8bf ; /* Slightly darker background for right column */
     
 }
