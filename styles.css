@@ -5,6 +5,7 @@ nav {
     display: flex; /* Use flexbox for layout */
     justify-content: flex-start; /* Start aligning from the left */
     align-items: center; /* Center vertically */
+    style:"font-family: georgia";
 }
 
 nav ul {
@@ -29,6 +30,7 @@ nav ul li a:hover {
 }
 
 .container {
+    style:"font-family: georgia";
     display: flex;
     width: 95%;                 /* Set container width, e.g., 80% of the viewport */
     margin: 0 auto;             /* Center the container on the page */
@@ -53,4 +55,23 @@ nav ul li a:hover {
 
 .profileimage-container {
     text-align: center;
+}
+
+footer {
+    padding: 20px;
+    background-color: #829aa0; 
+    color: white;
+    text-align: center;
+}
+.footer-logos {
+    display: flex;
+    justify-content: center; /* Centers logos in the footer */
+    gap: 15px; /* Space between logos */
+    margin-bottom: 10px; /* Space between logos and footer text */
+}
+
+.logo {
+    height: 40px; /* Adjust the height as needed */
+    opacity: 0.9; /* Slight transparency for effect */
+    transition: opacity 0.3s; /* Smooth hover effect */
 }
