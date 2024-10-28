@@ -46,15 +46,19 @@ nav ul li a:hover {
 
 .column {
     padding: 0px;
-    margin: 0 10px; /* Add some space between columns */}
+    float: left;                /* Float columns to align them side by side */
+    margin: 0px; /* Add some space between columns */
+}
 
 .left {
     width: 20%; /* Set fixed width for columns, adjust as needed */
+    padding:20px;
         background-color: #e6f3ef; /* Light background for left column */
 }
 
 .right {
-    width: 80%; /* Set fixed width for columns, adjust as needed */
+    width: 80%;
+    padding: 20px;
     background-color:   #abc8bf ; /* Slightly darker background for right column */
     
 }
