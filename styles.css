@@ -71,7 +71,6 @@ footer {
     display: flex;
     justify-content: center; /* Centers logos in the footer */
     gap: 15px; /* Space between logos */
-    margin-bottom: 10px; /* Space between logos and footer text */
 }
 
 .logo {
