@@ -53,13 +53,13 @@ nav ul li a:hover {
 .left {
     width: 20%; /* Set fixed width for columns, adjust as needed */
     padding:20px;
-        background-color: #e6f3ef; /* Light background for left column */
+        background-color: white; /* Light background for left column */
 }
 
 .right {
     width: 80%;
     padding: 20px;
-    background-color:   #abc8bf ; /* Slightly darker background for right column */
+    background-color:   #e6f3ef ; /* Slightly darker background for right column */
     
 }
 
