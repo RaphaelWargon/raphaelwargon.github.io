@@ -1,24 +1,21 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
 nav {
     background-color: #333;
     color: white;
     padding: 15px;
     display: flex; /* Use flexbox for layout */
-    justify-content: flex-end; /* Align items to the right */}
+    justify-content: flex-start; /* Start aligning from the left */
+    align-items: center; /* Center vertically */
+}
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    display: flex; /* Use flexbox for horizontal layout */
+    margin-left: auto; /* Push the ul to the right */
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+    margin-left: 20px; /* Space between navigation items */
 }
 
 nav ul li a {
@@ -29,10 +26,11 @@ nav ul li a {
 .container {
     display: flex;
     margin: 20px;
+    justify-content: center; /* Center the columns horizontally */
 }
 
 .column {
-    flex: 0 0 300px; /* Set fixed width for columns, adjust as needed */
+    flex: 0 0 700px; /* Set fixed width for columns, adjust as needed */
     padding: 20px;
     margin: 0 10px; /* Add some space between columns */}
 
