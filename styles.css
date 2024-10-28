@@ -74,7 +74,7 @@ footer {
 }
 
 .logo {
-    height: 40px; /* Adjust the height as needed */
+    height: 60px; /* Adjust the height as needed */
     opacity: 0.9; /* Slight transparency for effect */
     transition: opacity 0.3s; /* Smooth hover effect */
 }
