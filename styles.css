@@ -65,15 +65,21 @@ nav ul li a:hover {
 
 .category_res {
     padding: 20px;
-    float: left;                /* Float columns to align them side by side */
     margin: 0px; /* Add some space between columns */
+    display: flex;                       /* Enable grid layout */
     box-sizing: border-box;      /* Include padding in width calculation */
 }
 
 .res_item {
     padding: 20px;
 }
+.res_item_article {
+        width: 70%;
+}
 
+.res_item_pic {
+        width: 30%;
+}
 
 container category_res res_item a {
     font-size: 22px;
