@@ -63,6 +63,28 @@ nav ul li a:hover {
     
 }
 
+.category_res {
+    padding: 20px;
+    float: left;                /* Float columns to align them side by side */
+    margin: 0px; /* Add some space between columns */
+    box-sizing: border-box;      /* Include padding in width calculation */
+}
+
+.res_item {
+    padding: 20px;
+}
+
+
+container category_res res_item a {
+    font-size: 22px;
+    color: #f4f4e7;
+    text-decoration: none;
+}
+container category_res res_item a:hover {
+    color: #f4f4e7;
+    text-decoration: underline;
+}
+
 .profileimage-container {
     text-align: center;
 }
