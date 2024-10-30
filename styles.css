@@ -81,13 +81,13 @@ nav ul li a:hover {
         width: 30%;
 }
 
-container category_res res_item a {
+category_res res_item a {
     font-size: 22px;
-    color: #f4f4e7;
+    color: #829aa0;
     text-decoration: none;
 }
-container category_res res_item a:hover {
-    color: #f4f4e7;
+category_res res_item a:hover {
+    color: #829aa0;
     text-decoration: underline;
 }
 
