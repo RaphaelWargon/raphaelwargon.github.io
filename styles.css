@@ -91,7 +91,7 @@ category_res res_item a:hover {
     text-decoration: underline;
 }
 
-abstract_text {
+details {
             margin-top: 20px;
             border: 1px solid #ccc;
             padding: 10px;
@@ -99,9 +99,8 @@ abstract_text {
             cursor: pointer;
         }
 
-abstract_toggle {
+summary {
             font-weight: bold;
-            cursor: pointer;
     text-decoration: underline;
         }
 .profileimage-container {
