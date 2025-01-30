@@ -95,13 +95,15 @@ details {
             margin-top: 20px;
             border: 1px solid #ccc;
             padding: 10px;
-            width: 300px;
+            width: 200px;
             cursor: pointer;
         }
 
 summary {
             font-weight: bold;
     text-decoration: underline;
+                cursor: pointer;
+
         }
 .profileimage-container {
     text-align: center;
