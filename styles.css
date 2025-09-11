@@ -65,15 +65,16 @@ nav ul li a:hover {
     text-align: center;
     margin-bottom: 20px; /* Space below image */
     width: 100%;
-    max-width: 300px; /* Limit the width of the image container */
-    margin-left: auto; 
-    margin-right: auto; /* Center the image container */
+    max-width: 250px; /* Limit the container width */
+    margin-left: auto;
+    margin-right: auto; /* Center the container */
 }
 
 .profileimage-container img {
-    width: 100%; /* Makes the image responsive */
-    max-width: 200px; /* Maximum width set to 200px */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 50%; /* Circular profile image */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow around image */
+    width: 100%; /* Make the image responsive */
+    max-width: 250px; /* Maximum width set to 250px */
+    height: auto; /* Ensure it maintains aspect ratio */
+    border-radius: 50%; /* Keep the circular shape */
+    object-fit: cover; /* Ensures the image covers the container without stretching */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow for better look */
 }
