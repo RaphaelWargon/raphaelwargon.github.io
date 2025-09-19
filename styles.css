@@ -47,7 +47,8 @@ nav ul li a:visited {  color : #000000;
        } 
 .category_res { padding: 20px;
                margin: 0px; /* Add some space between columns */
-               display: flex; /* Enable grid layout */ 
+              display: flex;
+              flex-direction: column;
                box-sizing: border-box; /* Include padding in width calculation */ 
               } .res_item { padding: 20px; } .res_item_article { width: 70%; } 
 
