@@ -47,6 +47,7 @@ nav ul li a:visited {  color : #000000;
        } 
 .category_res { padding: 20px;
                margin: 20  px; /* Add some space between columns */
+               float: center; 
               display: flex;
               flex-direction: column;
                    border-radius: 8px;
