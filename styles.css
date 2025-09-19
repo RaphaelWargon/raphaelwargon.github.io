@@ -1,80 +1,77 @@
-body {
-    margin: 0;
-    font-family: "Georgia", serif; /* Added font-family for body */
-    background-color: #f4f4f4; /* Added light background for the entire page */
-}
+body{ margin: 0; } 
+nav { background-color: #829aa0; 
+     color: #f4f4e7; 
+     padding: 15px; 
+     display: flex; /* Use flexbox for layout */ 
+     justify-content: flex-start; /* Start aligning from the left */ 
+     align-items: center; /* Center vertically */ 
+     style:"font-family: georgia"; } 
+nav ul { list-style-type: none;
+        padding: 0; display: flex; /* Use flexbox for horizontal layout */ 
+        margin-left: auto; /* Push the ul to the right */ 
+       } 
+nav ul li { margin-left: 20px; /* Space between navigation items */ 
+          } 
+nav ul li a { font-size: 22px; 
+             color: #f4f4e7; 
+             text-decoration: none; 
+            } 
+nav ul li a:hover { color: #f4f4e7; 
+                   text-decoration: underline; 
+                  } 
+.container { style:"font-family: georgia"; 
+            display: flex; /* Enable grid layout */ 
+            width: 100%; /* Full width of the viewport */ 
+            height: 100vh; /* Optional: Full height of the viewport */ 
+            margin: 0; /* Center the container on the page */ 
+            padding: 0px; /* Optional: Padding around the container */ 
+            justify-content: center; /* Center the columns horizontally */ } 
+.column { padding: 0px; 
+         float: left; /* Float columns to align them side by side */ 
+         margin: 0px; /* Add some space between columns */ 
+         box-sizing: border-box; /* Include padding in width calculation */ } 
+.left { width: 30%; /* Set fixed width for columns, adjust as needed */ 
+       padding:20px; background-color: white; /* Light background for left column */ 
+      } 
+.right { width: 70%; 
+        padding: 20px; 
+        background-color: #e6f3ef ;        /* Slightly darker background for right column */ 
+       } 
+.category_res { padding: 20px;
+               margin: 0px; /* Add some space between columns */
+               display: flex; /* Enable grid layout */ 
+               box-sizing: border-box; /* Include padding in width calculation */ 
+              } .res_item { padding: 20px; } .res_item_article { width: 70%; } 
 
-nav {
-    background-color: #829aa0;
-    color: #f4f4e7;
-    padding: 15px;
-    display: flex; /* Use flexbox for layout */
-    justify-content: flex-start; /* Align items to the left */
-    align-items: center; /* Center items vertically */
-}
+.res_item_pic { width: 30%;
+              }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex; /* Use flexbox for horizontal layout */
-    margin-left: auto; /* Push the ul to the right */
-}
+category_res res_item a { font-size: 22px; 
+                         color: #829aa0; 
+                         text-decoration: none; } 
+category_res res_item a:hover { color: #829aa0;
+                               text-decoration: underline; }
+details { margin-top: 20px; 
+         border: 1px solid #ccc; 
+         padding: 10px; width: 600px; 
+         cursor: pointer; } 
+summary { font-weight: bold;
+         text-decoration: underline;
+         cursor: pointer; } 
+.profileimage-container { text-align: center; 
+                        } 
+footer { padding: 20px; 
+        background-color: #829aa0; 
+        color: white; 
+        text-align: center; 
+        position: sticky; 
+        bottom: 0; width: 100%; } 
+.footer-logos { display: flex; 
+               justify-content: center; /* Centers logos in the footer */
+               gap: 15px; /* Space between logos */
+              } 
+.logo { height: 60px; /* Adjust the height as needed */ 
+       opacity: 0.9; /* Slight transparency for effect */ 
+       transition: opacity 0.3s; /* Smooth hover effect */ }
 
-nav ul li {
-    margin-left: 20px; /* Space between navigation items */
-}
 
-nav ul li a {
-    font-size: 22px;
-    color: #f4f4e7;
-    text-decoration: none;
-    transition: color 0.3s ease; /* Smooth color transition */
-}
-
-nav ul li a:hover {
-    color: #ffcc00; /* Highlight color on hover */
-    text-decoration: underline;
-}
-
-.container {
-    display: flex;
-    width: 100%; 
-    min-height: 100vh; /* Full height of the viewport */
-    margin: 0;
-    padding: 20px;
-    justify-content: center; /* Center the content horizontally */
-    gap: 20px; /* Space between columns */
-}
-
-.column {
-    box-sizing: border-box; 
-    padding: 20px;
-}
-
-.left {
-    width: 30%; 
-    background-color: white; 
-    border-radius: 8px; /* Rounded corners for left column */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow effect */
-}
-
-.right {
-    width: 70%;
-    b
-.profileimage-container {
-    text-align: center;
-    margin-bottom: 20px; /* Space below image */
-    width: 100%;
-    max-width: 25px; /* Limit the container width */
-    margin-left: auto;
-    margin-right: auto; /* Center the container */
-}
-
-.profileimage-container img {
-    width: 100%; /* Make the image responsive */
-    max-width: 25px; /* Maximum width set to 250px */
-    height: auto; /* Ensure it maintains aspect ratio */
-    border-radius: 50%; /* Keep the circular shape */
-    object-fit: cover; /* Ensures the image covers the container without stretching */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow for better look */
-}
