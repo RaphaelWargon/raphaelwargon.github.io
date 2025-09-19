@@ -1,6 +1,6 @@
 body{ margin: 0; } 
 nav { background-color: #829aa0; 
-     color: #f4f4e7; 
+     color: #000000; 
      padding: 15px; 
      display: flex; /* Use flexbox for layout */ 
      justify-content: flex-start; /* Start aligning from the left */ 
