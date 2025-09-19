@@ -29,8 +29,8 @@ nav ul li a:visited {  color : #000000;
 
 .container { style:"font-family: georgia"; 
             display: flex; /* Enable grid layout */ 
-            width: 100%; 
-            height: 100%; /* Optional: Full height of the viewport */ 
+            width: 100vh; 
+            height: 100vh; /* Optional: Full height of the viewport */ 
             margin: 0; /* Center the container on the page */ 
             padding: 0; /* Optional: Padding around the container */ 
             border-radius: 8px;
@@ -46,8 +46,8 @@ nav ul li a:visited {  color : #000000;
         padding: 20px; 
         background-color: #e6f3ef ;        /* Slightly darker background for right column */ 
        } 
-.category_res { padding: 20px;
-               margin: 20  px; /* Add some space between columns */
+.category_res { padding: 0px;
+               margin: 0px; /* Add some space between columns */
                float: center; 
               display: flex;
               flex-direction: column;
@@ -55,7 +55,7 @@ nav ul li a:visited {  color : #000000;
                    width: 80%; /* You can adjust this to fit the content */
                box-sizing: border-box; /* Include padding in width calculation */ 
               } 
-.res_item { padding: 20px;
+.res_item { padding: 0px;
                           } .res_item_article { width: 70%; 
                                               } 
 
