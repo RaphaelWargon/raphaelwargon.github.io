@@ -1,6 +1,7 @@
 body{ margin: 0;     
-    min-height: 100vh; /* Full viewport height */
-     justify-content: center; align-items: center;
+      min-height: 100vh; /* Full viewport height */
+     justify-content: center; 
+     align-items: center;
     } 
 nav { background-color: #829aa0; 
      color: #000000; 
@@ -29,7 +30,7 @@ nav ul li a:visited {  color : #000000;
 .container { style:"font-family: georgia"; 
             display: flex; /* Enable grid layout */ 
             width: 90%; 
-            height: 100vh; /* Optional: Full height of the viewport */ 
+            height: 90vh; /* Optional: Full height of the viewport */ 
             margin: 20px; /* Center the container on the page */ 
             padding: 20px; /* Optional: Padding around the container */ 
             border-radius: 8px;
@@ -52,9 +53,11 @@ nav ul li a:visited {  color : #000000;
               flex-direction: column;
                    border-radius: 8px;
                    width: 80%; /* You can adjust this to fit the content */
-               max-width: 800px; /* Optional: max width to prevent stretching */
                box-sizing: border-box; /* Include padding in width calculation */ 
-              } .res_item { padding: 20px; } .res_item_article { width: 70%; } 
+              } 
+.res_item { padding: 20px;
+                          } .res_item_article { width: 70%; 
+                                              } 
 
 .res_item_pic { width: 30%;
               }
