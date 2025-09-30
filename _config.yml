@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "fr-FR"
-site_theme               : "air" # Currently available options are "default", "air"
+site_theme               : "default" # Currently available options are "default", "air"
 #title                    : "Raphaël Wargon"
 #title_separator          : "-"
 name                     : &name "Raphael Wargon"
@@ -217,16 +217,16 @@ kramdown:
 # These settings control the types of collections used by the template
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
