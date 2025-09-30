@@ -23,7 +23,7 @@ repository               : "RaphaelWargon/raphaelwargon.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "photo-site.png"
   name             : "Raphaël Wargon"
   pronouns         : 'he/him'# example: "she/her"  
   bio              : "PhD student at PSE"
