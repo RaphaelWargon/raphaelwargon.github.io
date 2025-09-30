@@ -1,14 +1,19 @@
 ---
-title: "Paper Title Number 1"
+title: "Does Chinese Research Hinge on US Coauthors ? Evidence from the China Initiative"
 collection: publications
-category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+category: articles
+excerpt: 'Launched in November 2018 by the Trump administration, the China Initiative was meant
+to “protect US intellectual property and technologies against Chinese Economic Espionage”.
+In practice, it made administrative procedures more complicated and funding less accessible
+for collaborative projects between Chinese and US researchers. In this paper we use informa-
+tion from the Scopus database to analyze how the China Initiative shock affected the volume,
+quality and direction of Chinese research. We find a negative effect of the Initiative on the
+average quality of both the publications and the co-authors of Chinese researchers with prior
+US collaborations. Moreover, this negative effect has been stronger for Chinese researchers with
+higher research productivity and/or who worked on US-dominated fields and/or topics prior to
+the shock. Finally, we find that Chinese researchers with prior US collaborations reallocated
+away from US coauthors after the shock and also towards more basic research.'
 date: 2009-10-01
 venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+paperurl: 'https://www.college-de-france.fr/sites/default/files/media/document/2024-03/Does%20Chinese%20Research%20Hinge%20on%20US%20Coauthors.%20Evidence%20from%20the%20China%20Initiative.pdf'
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
