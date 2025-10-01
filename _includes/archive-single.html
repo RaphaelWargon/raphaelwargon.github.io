@@ -46,14 +46,8 @@
 
     {% if post.picture %}
     <div class="archive__item-picture">
-        <img src=
-          {% if post.picture contains "://" %}
-            "{{ post.picture  }}"
-          {% else %}
-            "{{ post.picture  | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="post_picture">
-     </div>
+      <img src="/images/{{ post.picture }}" alt="post_picture">     
+    </div>
     {% endif %}
 
     {% if post.read_time %}
