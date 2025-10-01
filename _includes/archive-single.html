@@ -34,6 +34,18 @@
       {% endif %}
     </h2>
     
+    {% if post.authors %}
+    <div class="archive__item-authors">
+      {{ post.authors }}
+     </div>
+    {% endif %}
+
+    {% if post.picture %}
+    <div class="archive__item-picture">
+      {{ post.picture }}
+     </div>
+    {% endif %}
+
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
@@ -52,11 +64,6 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
-    {% if post.authors %}
-    <div class="archive__item-authors">
-      {{ post.authors }}
-     </div>
-    {% endif %}
 
     {% if post.abstract %}
     <div class="archive__item-abstract">
