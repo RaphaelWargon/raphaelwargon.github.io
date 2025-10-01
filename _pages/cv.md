@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
   
-<iframe src="files/wargon_cv_2025.pdf" width="600" height="400"></iframe>
+<iframe src="{{ base_path }}files/wargon_cv_2025.pdf" width="600" height="400"></iframe>
