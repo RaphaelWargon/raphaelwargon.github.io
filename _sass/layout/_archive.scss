@@ -71,7 +71,7 @@
   .abstract-button {
     display: inline-block;
     padding: 6px 12px;
-    background-color: #abbab5;
+    background-color: #99baaf;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -81,7 +81,7 @@
     margin-bottom: 0.5em;
 
     &:hover {
-      background-color: #b1bdb9;
+      background-color: #7b968d;
     }
   }
 
@@ -114,14 +114,14 @@
 .archive__item-authors {
   margin-top: 0.5em;
   font-size: $type-size-6;
-  color: #abbab5;
+  color: #99baaf;
 
   a {
     text-decoration: underline;
     color: inherit;
 
     &:hover {
-      color: #b1bdb9;
+      color: #7b968d;
     }
   }
 }
