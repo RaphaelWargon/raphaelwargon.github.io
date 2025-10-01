@@ -1,10 +1,11 @@
 ---
-title: "Microeconomics of uncertainty and information"
-collection: teaching
-type: "TA - Undergraduate course"
-venue: "Paris 1 Panthéon Sorbonne"
-date: 2022-2025
-layout: archive
-permalink: teaching/microL3
-location: "Paris"
+title: "Microeconomics L3"
+layout: teaching
+permalink: /teaching/microL3/
 ---
+
+### Course Description
+
+2022-2025: Microeconomics of uncertainty and information, Paris I Panthéon Sorbonne, undergraduate level, for Professor Francis Bloch.
+
+Spring 2023: Introduction to statistical analysis, Sciences Po Paris, graduate level, for Dr. Paul Dutronc-Postel and Dr. Audrey Rain.
