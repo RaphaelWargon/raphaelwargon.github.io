@@ -36,7 +36,7 @@
     
     {% if post.authors %}
     <div class="archive__item-authors">
-    {{ post.authors | markdownify }}
+    {{ post.authors | markdownify | remove: "<p>" | remove: "</p>" }}
     </div>
     {% endif %}
 
