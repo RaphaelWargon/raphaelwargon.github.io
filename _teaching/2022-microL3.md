@@ -1,6 +1,6 @@
 ---
 title: "Microeconomics L3"
-layout: teaching
+layout: archive
 permalink: /teaching/microL3/
 ---
 
