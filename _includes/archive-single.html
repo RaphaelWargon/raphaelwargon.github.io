@@ -36,8 +36,8 @@
     
     {% if post.authors %}
     <div class="archive__item-authors">
-      {{ post.authors }}
-     </div>
+    {{ post.authors | markdownify }}
+    </div>
     {% endif %}
 
     {% if post.picture %}
