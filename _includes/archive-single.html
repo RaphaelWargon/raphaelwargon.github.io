@@ -51,7 +51,7 @@
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
-        {% if post.collection == 'teaching' and post.date %}
+        {% if post.collection == 'teaching' and post.period %}
           <p>  "test" </p>
         {% elsif post.category == 'articles' %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date }} </p>
