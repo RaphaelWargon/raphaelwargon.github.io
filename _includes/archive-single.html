@@ -50,6 +50,12 @@
     {{ post.authors }}
     </div>
     {% endif %}
+    
+    {% if post.university %}
+    <div class="archive__item-excerpt">
+     <p >{{ post.university }} </p>
+    </div>
+    {% endif %}
 
 
     {% if post.read_time %}
