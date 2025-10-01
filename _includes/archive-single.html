@@ -47,10 +47,10 @@
     {% if post.picture %}
     <div class="archive__item-picture">
         <img src=
-          {% if picture contains "://" %}
-            "{{ picture }}"
+          {% if post.picture contains "://" %}
+            "{{ post.picture  }}"
           {% else %}
-            "{{ picture | prepend: "/images/" | prepend: base_path }}"
+            "{{ post.picture  | prepend: "/images/" | prepend: base_path }}"
           {% endif %}
           alt="post_picture">
      </div>
