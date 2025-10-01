@@ -28,7 +28,8 @@ author:
   pronouns         : 'he/him'# example: "she/her"  
   bio              : "PhD student at PSE"
   location         : "Paris"
-  employer         : "Paris School of Economics / Collège de France"
+  employer         : "Paris School of Economics"
+  employer2         : "Collège de France"
   #uri              : # URL
   email            : "raphael.wargon@college-de-france.fr" 
 
