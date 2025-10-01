@@ -71,7 +71,7 @@
   .abstract-button {
     display: inline-block;
     padding: 6px 12px;
-    background-color: #829aa0;
+    background-color: #abbab5;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -81,7 +81,7 @@
     margin-bottom: 0.5em;
 
     &:hover {
-      background-color: #557a85;
+      background-color: #b1bdb9;
     }
   }
 
@@ -90,7 +90,7 @@
     font-size: $type-size-6;
     margin-top: 0.5em;
     padding: 10px;
-    background-color: #f4f4f4;
+    background-color: #dfebe7;
     border-left: 3px solid #829aa0;
     border-radius: 4px;
   }
@@ -114,14 +114,14 @@
 .archive__item-authors {
   margin-top: 0.5em;
   font-size: $type-size-6;
-  color: var(--global-text-color-light);
+  color: #abbab5;
 
   a {
     text-decoration: underline;
     color: inherit;
 
     &:hover {
-      color: #557a85;
+      color: #b1bdb9;
     }
   }
 }
