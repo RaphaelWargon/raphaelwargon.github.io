@@ -53,6 +53,8 @@
 
         {% if post.collection == 'teaching' and post.period %}
           <p>  "test" </p>
+        {% elseif post.period %}
+          <p>  "test2" </p>
         {% elsif post.category == 'articles' %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date }} </p>
         {% endif %}
