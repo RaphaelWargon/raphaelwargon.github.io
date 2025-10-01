@@ -56,7 +56,7 @@
           <p>  "test" </p>
           {% endif%}
         {% elsif post.category == 'articles' %}
-          <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p>Published in <i>{{ post.venue }}</i>, {{ post.date }} </p>
         {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
