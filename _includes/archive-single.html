@@ -12,10 +12,6 @@
   {% assign title = post.title %}
 {% endif %}
 
-{% if post.picture %}
-  {% assign picture = post.picture %}
-{% endif %}
-
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
@@ -51,17 +47,12 @@
     </div>
     {% endif %}
     
-    {% if post.university %}
-    <a>{{ post.university }}</a> 
-    {% endif %}
-
-
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
         {% if post.collection == 'teaching' %}
-          <p>  {{ post.date  }} </p>
+          <p>  "test" </p>
         {% elsif post.category == 'articles' %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.date %}
