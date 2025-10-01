@@ -32,5 +32,22 @@ author_profile: true
   {% endfor %}
 {% endif %}
 
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+  const buttons = document.querySelectorAll(".archive__item-abstract .abstract-button");
 
+  buttons.forEach(button => {
+    button.addEventListener("click", () => {
+      const abstract = button.nextElementSibling;
+      if (abstract.style.display === "none" || abstract.style.display === "") {
+        abstract.style.display = "block";
+        button.textContent = "Hide Abstract";
+      } else {
+        abstract.style.display = "none";
+        button.textContent = "Show Abstract";
+      }
+    });
+  });
+});
+</script>
 
