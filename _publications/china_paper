@@ -5,7 +5,7 @@ category: wp
 abstract: 'Launched in November 2018 by the Trump administration, the China Initiative was meant
 to “protect US intellectual property and technologies against Chinese Economic Espionage”.
 In practice, it made administrative procedures more complicated and funding less accessible
-for collaborative projects between Chinese and US researchers. In this paper we use informa-
+for collaborative projects between Chinese and US researchers. In this paper we use informa
 tion from the Scopus database to analyze how the China Initiative shock affected the volume,
 quality and direction of Chinese research. We find a negative effect of the Initiative on the
 average quality of both the publications and the co-authors of Chinese researchers with prior
@@ -14,6 +14,11 @@ higher research productivity and/or who worked on US-dominated fields and/or top
 the shock. Finally, we find that Chinese researchers with prior US collaborations reallocated
 away from US coauthors after the shock and also towards more basic research.'
 venue : "wp"
+authors : 'with [Philippe Aghion](https://www.philippeaghion.com), 
+[Céline Antonin](https://www.ofce.fr/pages-chercheurs/page.php?id=3), 
+[Luc Paluskiewicz](https://lucpaluskiewicz.github.io), 
+[David Strömberg](https://davidstro.github.io),
+and Karolina Westin'
 date: 2009-10-01
 venue: 'Journal 1'
 paperurl: 'https://www.college-de-france.fr/sites/default/files/media/document/2024-03/Does%20Chinese%20Research%20Hinge%20on%20US%20Coauthors.%20Evidence%20from%20the%20China%20Initiative.pdf'
