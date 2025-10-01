@@ -1,5 +1,5 @@
 ---
-collection = teaching
+collection : teaching
 title: "Microeconomics of uncertainty and information"
 layout: archive
 date : 2022
