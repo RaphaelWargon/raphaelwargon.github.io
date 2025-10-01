@@ -46,7 +46,8 @@
 
     {% if post.picture %}
     <div class="archive__item-picture">
-      <img src="{{ base_path }}/images/{{ post.picture }}" alt="post_picture">     
+      <img src="{{ base_path }}/images/{{ post.picture }}" 
+        alt="{{ base_path }}/images/{{ post.picture }}">     
     </div>
     {% endif %}
 
