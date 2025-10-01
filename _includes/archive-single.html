@@ -29,6 +29,13 @@
           alt="">
       </div>
     {% endif %}
+    
+    {% if post.picture %}
+    <div class="archive__item-picture">
+      <img src="{{ base_path }}{{ post.picture }}" 
+        alt="{{ base_path }}{{ post.picture }}">     
+    </div>
+    {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
@@ -44,12 +51,6 @@
     </div>
     {% endif %}
 
-    {% if post.picture %}
-    <div class="archive__item-picture">
-      <img src="{{ base_path }}{{ post.picture }}" 
-        alt="{{ base_path }}{{ post.picture }}">     
-    </div>
-    {% endif %}
 
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
