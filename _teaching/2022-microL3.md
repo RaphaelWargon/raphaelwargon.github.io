@@ -4,7 +4,7 @@ collection: teaching
 type: "TA - Undergraduate course"
 venue: "Paris 1 Panthéon Sorbonne"
 date: 2022-2025
-layout: teaching
+layout: archive
 permalink: teaching/microL3
 location: "Paris"
 ---
