@@ -1,8 +1,8 @@
 ---
-collection : teaching
+collection : "teaching"
 title: "Microeconomics of uncertainty and information"
 layout: archive
-date : 2022
+date : "2022-2025"
 excerpt: "Undergraduate level - Micro of risk aversion and information assymmetry"
 authors: "for Pr. Francis Bloch"
 ---
