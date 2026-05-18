@@ -41,6 +41,8 @@ $sidebar-screen-min-width   : 1024px;
     --global-link-color-visited         : mix(#fff, #55706F, 25%);  
     --global-item-color                 : #6A8C8B;
     --global-background-boxes           : #EDFAF6;
+    --global-background-boxes-dark      : #9CB5B1;
+    --global-background-boxes-hover     : #829693;
     --global-masthead-link-color        : #{$dark-gray};
     --global-masthead-link-color-hover  : mix(#000, #{$gray}, 25%);    
     --global-text-color                 : #{$dark-gray};
