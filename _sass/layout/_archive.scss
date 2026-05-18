@@ -114,17 +114,17 @@
 }
 .archive__item-picture {
   max-width: 250px;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin: 0.75em 0;
   border-radius: $border-radius;
   overflow: hidden;
+  position: relative;
 
   img {
     width: 100%;
     height: auto;
     display: block;
+    transition: opacity 0.25s ease;
   }
-}
 
   .archive__item-picture-hover {
     position: absolute;
@@ -143,7 +143,6 @@
     }
   }
 }
-
 .archive__item-authors {
   margin-top: 0.5em;
   font-size: $type-size-6;
