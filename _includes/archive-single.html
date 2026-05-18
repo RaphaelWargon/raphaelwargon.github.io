@@ -30,10 +30,6 @@
   <div class="archive__item-picture">
     <img class="archive__item-picture-default" src="{{ '/images/' | append: post.picture | relative_url }}" alt="{{ post.title }}">
 
-    {% if post.picture_hover %}
-      <img class="archive__item-picture-hover" src="{{ '/images/' | append: post.picture_hover | relative_url }}" alt="{{ post.title }}">
-    {% endif %}
-  </div>
 {% endif %}
 
     
