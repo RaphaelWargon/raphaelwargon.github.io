@@ -113,12 +113,37 @@
   }
 }
 .archive__item-picture {
+  max-width: 250px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   border-radius: $border-radius;
   overflow: hidden;
+
   img {
     width: 100%;
+    height: auto;
+    display: block;
   }
 }
+
+  .archive__item-picture-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+
+  &:hover {
+    .archive__item-picture-default {
+      opacity: 0;
+    }
+
+    .archive__item-picture-hover {
+      opacity: 1;
+    }
+  }
+}
+
 .archive__item-authors {
   margin-top: 0.5em;
   font-size: $type-size-6;
