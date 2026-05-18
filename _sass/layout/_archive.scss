@@ -43,11 +43,19 @@
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
   color: var(--global-text-color);
+  a {
+    color: var(--global-text-color);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-text-color);
+      text-decoration: underline;
+    }}
+
   a + a {
     opacity: 0.5;
   }
 }
-
 /* remove border*/
 .page__content {
 
