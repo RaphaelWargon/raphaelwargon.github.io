@@ -46,6 +46,12 @@
     {{ post.authors }}
     </div>
     {% endif %}
+
+    {% if post.presentation %}
+    <p class="archive__item-presentation">
+    <em>{{ post.presentation }}</em>
+    </p>
+  {% endif %}
     
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
