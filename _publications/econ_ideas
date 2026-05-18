@@ -1,0 +1,20 @@
+---
+title: "The Life Cycle of Ideas"
+collection: publications
+category: wp
+abstract: 'We contribute to the debate on the production of ideas by examining the scientific production of an entire field. 
+We map the evolution of economic research by classifying 300,000 articles published in 1950--2020 using text analysis methods. 
+We identify 90 distinct topics, each characterized by a coherent set of themes and vocabulary. We document three main empirical patterns. 
+First, topics tend to show a rise-and-fall life cycle: their publication share increases during an expansion phase, peaks, and then gradually declines. 
+Second, despite these topic-level cycles, the aggregate scientific activity grows over time, both at the global and topic levels. 
+Third, this growth is accompanied by a constant ``reset'' in the topic composition of the discipline, with newer topics progressively displacing older ones. 
+Altogether, our findings have implications for the debate about whether or not ideas are harder to find.'
+venue : "wp"
+presentation: 'Collège de France and INSEAD Brown Bag Seminar (Rassenfosse) ; Workshop ESRC 2026 (Aghion); 11th Monash-Warwick-Zurich-CEPR Text-as-Data
+Workshop (Paluskiewicz) ; Forthcoming: NBER SI Science of Science 2026"
+authors :  >
+  with <a href="https://www.philippeaghion.com">Philippe Aghion</a>,
+  <a href="https://sites.google.com/site/abergeaudeco">Antonin Bergeaud</a>,
+  <a href="https://people.epfl.ch/gaetan.derassenfosse">Gaëtan de Rassenfosse</a>,
+  and <a href="https://lucpaluskiewicz.github.io">Luc Paluskiewicz</a>
+---
