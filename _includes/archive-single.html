@@ -26,12 +26,19 @@
       </div>
     {% endif %}
     
-{% if post.picture %}
-  <div class="archive__item-picture">
-    <img class="archive__item-picture-default" src="{{ '/images/' | append: post.picture | relative_url }}" alt="{{ post.title }}">
+    {% if post.picture %}
+  <div class="archive__item-picture{% if post.picture_hover %} has-hover{% endif %}">
+    <img class="archive__item-picture-default"
+         src="{{ '/images/' | append: post.picture | relative_url }}"
+         alt="{{ post.title | escape }}">
 
+    {% if post.picture_hover %}
+      <img class="archive__item-picture-hover"
+           src="{{ '/images/' | append: post.picture_hover | relative_url }}"
+           alt="{{ post.title | escape }}">
+    {% endif %}
+  </div>
 {% endif %}
-
     
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
