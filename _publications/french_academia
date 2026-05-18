@@ -5,5 +5,5 @@ category: jmp
 abstract: ' This paper studies the effects of two components of an organisational reform of the French university system: administrative autonomy, introduced in 2007, and access to competitive grants, introduced in 2010. The staggered and partially overlapping implementation of the two reforms, combined with the structural exclusion of a large share of French research institutions from one or both treatments, allows me to separately identify their effects on researcher mobility and research quality. Using bibliometric data from OpenAlex in a staggered differences-in-differences framework,  I find that administrative autonomy itself increases mobility between French institutions but reduces research quality of French researchers, lowering citations by approximately 6\%. Receiving a competitive grant also improves research quality but not sufficiently to offset the former effect. These results are consistent with a multitasking mechanism: by making grant acquisition the most visible performance signal available to authorities allocating funding, the reform diverted effort away from research itself.'
 presentation: Applied Economics Seminar, PSE; Collège de France and INSEAD Brown Bag seminar
 date: 2026-01-01
-picture:  /images/Sorbonne_université.jpg
+picture:  "Sorbonne_université.jpg"
 ---
