@@ -26,21 +26,17 @@
       </div>
     {% endif %}
     
-    {% if post.picture %}
-    <div class="archive__item-picture">
-      <img src="{{ base_path }}{{ post.picture }}" 
-        alt="{{ base_path }}{{ post.picture }}">     
-    </div>
-    {% endif %}
+{% if post.picture %}
+  <div class="archive__item-picture">
+    <img class="archive__item-picture-default" src="{{ '/images/' | append: post.picture | relative_url }}" alt="{{ post.title }}">
 
     {% if post.picture_hover %}
-      <img
-        class="archive__item-picture-hover"
-        src="{{ '/images/' | append: post.picture_hover | relative_url }}"
-        alt="{{ post.title }}"
-      >
+      <img class="archive__item-picture-hover" src="{{ '/images/' | append: post.picture_hover | relative_url }}" alt="{{ post.title }}">
     {% endif %}
+  </div>
+{% endif %}
 
+    
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
         <a >{{ title }}</a> <a " rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
