@@ -71,7 +71,7 @@
   .abstract-button {
     display: inline-block;
     padding: 6px 12px;
-    background-color: #99baaf;
+    background-color: var(--global-background-boxes-dark);
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -81,7 +81,7 @@
     margin-bottom: 0.5em;
 
     &:hover {
-      background-color: #7b968d;
+      background-color: var(--global-background-boxes-hover);
     }
   }
 
@@ -90,7 +90,7 @@
     font-size: $type-size-6;
     margin-top: 0.5em;
     padding: 10px;
-    background-color: #dfebe7;
+    background-color: var(--global-background-boxes);
     border-left: 3px solid #829aa0;
     border-radius: 4px;
   }
@@ -114,21 +114,21 @@
 .archive__item-authors {
   margin-top: 0.5em;
   font-size: $type-size-6;
-  color: #99baaf;
+  color: var(--global-link-color);
 
   a {
     text-decoration: underline;
     color: inherit;
 
     &:hover {
-      color: #7b968d;
+      color: var(--global-link-color-hover);
     }
   }
 }
 .archive__item-presentation {
   margin-top: 0.5em;
   font-size: $type-size-6;
-  color: #7D969C;
+  color: var(--global-link-color);
   font-style: italic;
 
   a {
@@ -136,7 +136,7 @@
     color: inherit;
 
     &:hover {
-      color: #7b968d;
+      color: var(--global-link-color-hover);
     }
   }
 }
