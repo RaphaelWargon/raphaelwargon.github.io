@@ -1,7 +1,7 @@
 ---
 title: "Scientific Isolation? The Consequences of Trump’s China Initiative on Chinese Research"
 collection: publications
-category: wp
+category: articles
 abstract: 'Launched in November 2018 by the Trump administration, the China Initiative was meant
 to “protect US intellectual property and technologies against Chinese Economic Espionage”.
 In practice, it made administrative procedures more complicated and funding less accessible
@@ -13,7 +13,7 @@ US collaborations. Moreover, this negative effect has been stronger for Chinese 
 higher research productivity and/or who worked on US-dominated fields and/or topics prior to
 the shock. Finally, we find that Chinese researchers with prior US collaborations reallocated
 away from US coauthors after the shock and also towards more basic research.'
-venue : "wp"
+venue : "International Economics Review"
 authors :  >
   with <a href="https://www.philippeaghion.com">Philippe Aghion</a>,
   <a href="https://www.ofce.fr/pages-chercheurs/page.php?id=3">Céline Antonin</a>,
@@ -21,7 +21,6 @@ authors :  >
   <a href="https://davidstro.github.io">David Strömberg</a>,
   <a href="https://xuepingsun.github.io">Xueping Sun</a>,
   and Karolina Westin
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'https://www.college-de-france.fr/sites/default/files/media/document/2024-03/Does%20Chinese%20Research%20Hinge%20on%20US%20Coauthors.%20Evidence%20from%20the%20China%20Initiative.pdf'
+date: 2026-09-11
+paperurl: 'https://onlinelibrary.wiley.com/doi/10.1111/iere.70107'
 ---
