@@ -2,13 +2,7 @@
 title: "The Life Cycle of Ideas"
 collection: publications
 category: wp
-abstract: 'We contribute to the debate on the production of ideas by examining the scientific production of an entire field. 
-We map the evolution of economic research by classifying 300,000 articles published in 1950--2020 using text analysis methods. 
-We identify 90 distinct topics, each characterized by a coherent set of themes and vocabulary. We document three main empirical patterns. 
-First, topics tend to show a rise-and-fall life cycle: their publication share increases during an expansion phase, peaks, and then gradually declines. 
-Second, despite these topic-level cycles, the aggregate scientific activity grows over time, both at the global and topic levels. 
-Third, this growth is accompanied by a constant ``reset'' in the topic composition of the discipline, with newer topics progressively displacing older ones. 
-Altogether, our findings have implications for the debate about whether or not ideas are harder to find.'
+abstract: ' We contribute to the debate on the production of ideas by examining the scientific output of two disciplines, economics and chemistry. We map the evolution of the two disciplines by classifying 360,000 articles in economics and 2.5 million articles in chemistry published between 1950 and 2020 using text analysis methods. We identify 90 distinct topics in economics and 80 in chemistry, each characterised by a coherent set of themes and vocabulary. We then document three main empirical patterns common to the two disciplines. First, topics tend to follow a rise-and-fall life cycle: their publication share increases during an expansion phase, peaks, and then gradually declines. Second, despite these topic-level cycles, aggregate scientific activity keeps growing over time, both overall and within each topic. This growth does not come at the expense of quality. Third, this growth is accompanied by a constant ``reset'' in the topic composition of each discipline, as newer combinations of topics keep emerging. Altogether, our findings have implications for the debate over whether ideas are becoming harder to find.'
 venue : "wp"
 presentation: Collège de France and INSEAD Brown Bag Seminar (Rassenfosse) ; CEPR Workshop ESRC 2026 (Aghion); 11th Monash-Warwick-Zurich-CEPR Text-as-Data Workshop (Paluskiewicz)
 authors :  >
